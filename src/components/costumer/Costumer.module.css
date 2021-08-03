@@ -1,0 +1,47 @@
+.container {
+  background-color: #f9f9f9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container article {
+  font-size: 24px;
+}
+
+.container__info {
+  background-color: #f4f4f4;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.info a {
+  background: #e5e5e5;
+  padding: 5px 8px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  background-color: #2f73f7;
+  color: white;
+  width: 110px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.buttons button:nth-child(2) {
+  margin-left: 10px;
+}
