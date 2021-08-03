@@ -10,7 +10,6 @@
 
 .container__list table {
   border: 1px solid #f4f4f4;
-  border-radius: 10px;
   background-color: #f4f4f4;
   box-shadow: 0px 0px 3px 4px rgba(67, 76, 59, 0.62);
   -webkit-box-shadow: 0px 0px 3px 4px rgba(67, 76, 59, 0.62);

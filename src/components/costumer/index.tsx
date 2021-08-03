@@ -18,10 +18,10 @@ export default function Costumer() {
         <h4>Total payments: $50</h4>
         <div className={styles.info}>
           <h4>
-            <Link href="/debt">Debts</Link>
+            <Link href="/debts">Debts</Link>
           </h4>
           <h4>
-            <Link href="/debt">Payments</Link>
+            <Link href="/payments">Payments</Link>
           </h4>
         </div>
       </div>
