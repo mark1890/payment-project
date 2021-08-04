@@ -8,15 +8,33 @@ export default function Payments() {
       <h3>Payments</h3>
       <div className={styles.container__list}>
         <ul>
-          <li>Payment 1</li>
-          <li>Payment 2</li>
-          <li>Payment 3</li>
-          <li>Payment 4</li>
-          <li>Payment 5</li>
-          <li>Payment 6</li>
-          <li>Payment 7</li>
-          <li>Payment 8</li>
-          <li>Payment 9</li>
+          <li>
+            <Link href="/payment"> Payment 1</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 2</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 3</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 4</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 5</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 6</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 7</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 8</Link>
+          </li>
+          <li>
+            <Link href="/payment"> Payment 9</Link>
+          </li>
         </ul>
       </div>
       <div className={styles.button}>
