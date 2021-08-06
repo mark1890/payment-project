@@ -14,6 +14,9 @@ export default function AddDebt() {
             <h4>Description</h4>
             <p>Se paga $35 por el pago de una patineta</p>
           </article>
+          <button className={styles.add} type="button">
+            Add
+          </button>
         </div>
         <div className={styles.button}>
           <button>

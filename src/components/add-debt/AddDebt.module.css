@@ -38,6 +38,23 @@
   grid-column: 2/4;
   grid-row: 3/4;
 }
+.container__card button {
+  background-color: #2f73f7;
+  color: white;
+  width: 110px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.add {
+  align-self: center;
+  justify-self: center;
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
 
 .button {
   display: flex;
