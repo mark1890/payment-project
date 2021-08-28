@@ -1,12 +1,5 @@
 .container {
-  background-image: linear-gradient(
-    to bottom,
-    #68ebf4,
-    #65edf0,
-    #63efec,
-    #62f1e7,
-    #64f3e2
-  );
+  background: #f9f9f9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,9 +8,16 @@
 }
 
 .container__form {
+  background-color: #eeeeee;
   width: 500px;
   height: auto;
   margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #eeeeee;
+  box-shadow: 7px 5px 3px 1px rgba(67, 76, 59, 0.75);
+  -webkit-box-shadow: 7px 5px 3px 1px rgba(67, 76, 59, 0.75);
+  -moz-box-shadow: 7px 5px 3px 1px rgba(67, 76, 59, 0.75);
+  border-radius: 15px;
 }
 
 .container__form h3 {

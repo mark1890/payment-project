@@ -1,0 +1,75 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__card {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  border: 1px solid black;
+}
+
+.container__card h3 {
+  text-align: center;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.amount {
+  text-align: center;
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+.date {
+  text-align: center;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.article {
+  text-align: center;
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+.container__card button {
+  background-color: #2f73f7;
+  color: white;
+  width: 110px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.add {
+  align-self: center;
+  justify-self: center;
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button button {
+  background-color: #2f73f7;
+  color: white;
+  width: 110px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
