@@ -10,12 +10,12 @@ export default function Costumer() {
         <h3>Costumer</h3>
       </article>
       <div className={styles.container__info}>
-        <h4>Marco Mora</h4>
-        <h4>ID: 1</h4>
-        <h4>Total debt: $200</h4>
-        <h4>Cellphone: 8888-8888</h4>
-        <h4>Email: example@gmail.com</h4>
-        <h4>Total payments: $50</h4>
+        <h4 className={styles.name}>Marco Mora</h4>
+        <h4 className={styles.id}>ID: 1</h4>
+        <h4 className={styles.debt}>Total debt: $200</h4>
+        <h4 className={styles.cellphone}>Cellphone: 8888-8888</h4>
+        <h4 className={styles.email}>Email: example@gmail.com</h4>
+        <h4 className={styles.payment}>Total payments: $50</h4>
         <div className={styles.info}>
           <h4>
             <Link href="/debts">Debts</Link>
